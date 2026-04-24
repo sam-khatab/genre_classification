@@ -1,0 +1,12 @@
+{"time":"2026-04-24T06:53:44.952111963Z","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-04-24T06:53:45.114167258Z","level":"INFO","msg":"stream: created new stream","id":"exnsrg3d"}
+{"time":"2026-04-24T06:53:45.114268408Z","level":"INFO","msg":"handler: started","stream_id":"exnsrg3d"}
+{"time":"2026-04-24T06:53:45.114426358Z","level":"INFO","msg":"stream: started","id":"exnsrg3d"}
+{"time":"2026-04-24T06:53:45.114455798Z","level":"INFO","msg":"writer: started","stream_id":"exnsrg3d"}
+{"time":"2026-04-24T06:53:45.114474578Z","level":"INFO","msg":"sender: started","stream_id":"exnsrg3d"}
+{"time":"2026-04-24T06:53:46.345819335Z","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2026-04-24T06:53:46.561696735Z","level":"INFO","msg":"stream: closing","id":"exnsrg3d"}
+{"time":"2026-04-24T06:53:46.929583441Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-04-24T06:53:47.111158414Z","level":"INFO","msg":"handler: closed","stream_id":"exnsrg3d"}
+{"time":"2026-04-24T06:53:47.111305284Z","level":"INFO","msg":"sender: closed","stream_id":"exnsrg3d"}
+{"time":"2026-04-24T06:53:47.111315824Z","level":"INFO","msg":"stream: closed","id":"exnsrg3d"}

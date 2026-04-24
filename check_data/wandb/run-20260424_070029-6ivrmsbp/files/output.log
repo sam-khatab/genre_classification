@@ -1,0 +1,37 @@
+[1m============================================= test session starts ==============================================[0m
+platform linux -- Python 3.13.13, pytest-8.4.2, pluggy-1.6.0 -- /home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/bin/python3.13
+cachedir: .pytest_cache
+rootdir: /workspace/genre_classification/check_data
+collected 4 items                                                                                              [0m[1m
+
+test_data.py::test_column_presence_and_type [32mPASSED[0m
+test_data.py::test_class_names [32mPASSED[0m
+test_data.py::test_column_ranges [32mPASSED[0m
+test_data.py::test_kolmogorov_smirnov [32mPASSED[0m
+
+[33m=============================================== warnings summary ===============================================[0m
+../../../home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:268
+../../../home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:268
+../../../home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:268
+../../../home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:268
+../../../home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:268
+../../../home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:268
+  /home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:268: DeprecationWarning: Read the `app_url` setting from the appropriate Settings object.
+    app_url = wandb.util.app_url(tags["base_url"])  # type: ignore[index]
+
+../../../home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:279
+../../../home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:279
+test_data.py::test_column_presence_and_type
+  /home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/lib/python3.13/site-packages/wandb/analytics/sentry.py:279: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+    self.scope.user = {"email": email}
+
+test_data.py::test_column_presence_and_type
+  /workspace/genre_classification/check_data/conftest.py:29: DtypeWarning: Columns (16) have mixed types. Specify dtype option on import or set low_memory=False.
+    sample1 = pd.read_csv(local_path)
+
+test_data.py::test_column_presence_and_type
+  /workspace/genre_classification/check_data/conftest.py:32: DtypeWarning: Columns (16) have mixed types. Specify dtype option on import or set low_memory=False.
+    sample2 = pd.read_csv(local_path)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[33m======================================== [32m4 passed[0m, [33m[1m11 warnings[0m[33m in 2.23s[0m[33m ========================================[0m

@@ -1,0 +1,45 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            e67f2axef6vtbid7oen68v9ihlceqsd1:
+                args:
+                    - --model_export
+                    - model_export
+                    - --test_data
+                    - data_test.csv:latest
+                codePath: evaluate/run.py
+                codePathLocal: run.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "2160158191616"
+                        used: "470686769152"
+                email: sskhattab@gmail.com
+                executable: /home/student/.conda/envs/mlflow-20899d9f93a243b3c2d61cb7fff078f5eab98f1b/bin/python
+                git:
+                    commit: 96b4c8f421fac8779636cb60ecd64d637057514b
+                    remote: https://github.com/sam-khatab/genre_classification
+                host: 3d552555e05aaeeb613fb400a93a58b58bf142d0-6889fdddc7-l472r
+                memory:
+                    total: "135077654528"
+                os: Linux-6.6.97+-x86_64-with-glibc2.36
+                program: /workspace/genre_classification/evaluate/run.py
+                python: CPython 3.13.13
+                root: /workspace/genre_classification/evaluate
+                startedAt: "2026-04-24T06:50:31.326032Z"
+                writerId: e67f2axef6vtbid7oen68v9ihlceqsd1
+        m: []
+        python_version: 3.13.13
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "4": 3.13.13
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64

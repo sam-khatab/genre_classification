@@ -1,0 +1,45 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            3157h3r3ghpco8tzauloov2zt32ou8lu:
+                args:
+                    - --file_url
+                    - https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true
+                    - --artifact_name
+                    - raw_data.parquet
+                    - --artifact_type
+                    - raw_data
+                    - --artifact_description
+                    - Data as downloaded
+                codePath: download/download_data.py
+                codePathLocal: download_data.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "2160158191616"
+                        used: "470349049856"
+                email: sskhattab@gmail.com
+                executable: /home/student/.conda/envs/mlflow-6020c6165ff66772b09c5cc54c9af39b0c9c44b4/bin/python
+                git:
+                    commit: 96b4c8f421fac8779636cb60ecd64d637057514b
+                    remote: https://github.com/sam-khatab/genre_classification
+                host: 3d552555e05aaeeb613fb400a93a58b58bf142d0-6889fdddc7-l472r
+                memory:
+                    total: "135077654528"
+                os: Linux-6.6.97+-x86_64-with-glibc2.36
+                program: /workspace/genre_classification/download/download_data.py
+                python: CPython 3.13.13
+                root: /workspace/genre_classification/download
+                startedAt: "2026-04-24T06:59:21.983264Z"
+                writerId: 3157h3r3ghpco8tzauloov2zt32ou8lu
+        m: []
+        python_version: 3.13.13
+        t:
+            "3":
+                - 2
+            "4": 3.13.13
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64

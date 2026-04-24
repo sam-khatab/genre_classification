@@ -1,0 +1,38 @@
+{
+  "os": "Linux-6.6.97+-x86_64-with-glibc2.36",
+  "python": "CPython 3.13.13",
+  "startedAt": "2026-04-23T12:53:44.496864Z",
+  "args": [
+    "--input_artifact",
+    "raw_data.parquet:latest",
+    "--artifact_name",
+    "preprocessed_data.csv",
+    "--artifact_type",
+    "preprocessed_data",
+    "--artifact_description",
+    "Data with preprocessing applied"
+  ],
+  "program": "/workspace/genre_classification/preprocess/run.py",
+  "codePath": "preprocess/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/sam-khatab/genre_classification",
+    "commit": "96b4c8f421fac8779636cb60ecd64d637057514b"
+  },
+  "email": "sskhattab@gmail.com",
+  "root": "/workspace/genre_classification/preprocess",
+  "host": "3d552555e05aaeeb613fb400a93a58b58bf142d0-69b57b7cf9-bzxp9",
+  "executable": "/home/student/.conda/envs/mlflow-0c0de061eeaefd8cf19694dcf7baac6a336c7f6b/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "2160158191616",
+      "used": "312428908544"
+    }
+  },
+  "memory": {
+    "total": "135077654528"
+  },
+  "writerId": "ipam9ijj71ameuc8t9vda6mjzobkz95d"
+}

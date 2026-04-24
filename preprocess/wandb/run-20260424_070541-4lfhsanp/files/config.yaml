@@ -1,0 +1,43 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            xl32zcriqpaseakoyzbvru0qdraxoj49:
+                args:
+                    - --input_artifact
+                    - raw_data.parquet:latest
+                    - --artifact_name
+                    - preprocessed_data.csv
+                    - --artifact_type
+                    - preprocessed_data
+                    - --artifact_description
+                    - Data with preprocessing applied
+                codePath: preprocess/run.py
+                codePathLocal: run.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "2160158191616"
+                        used: "471812132864"
+                email: sskhattab@gmail.com
+                executable: /home/student/.conda/envs/mlflow-0c0de061eeaefd8cf19694dcf7baac6a336c7f6b/bin/python
+                git:
+                    commit: 96b4c8f421fac8779636cb60ecd64d637057514b
+                    remote: https://github.com/sam-khatab/genre_classification
+                host: 3d552555e05aaeeb613fb400a93a58b58bf142d0-6889fdddc7-l472r
+                memory:
+                    total: "135077654528"
+                os: Linux-6.6.97+-x86_64-with-glibc2.36
+                program: /workspace/genre_classification/preprocess/run.py
+                python: CPython 3.13.13
+                root: /workspace/genre_classification/preprocess
+                startedAt: "2026-04-24T07:05:41.613767Z"
+                writerId: xl32zcriqpaseakoyzbvru0qdraxoj49
+        m: []
+        python_version: 3.13.13
+        t:
+            "4": 3.13.13
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64

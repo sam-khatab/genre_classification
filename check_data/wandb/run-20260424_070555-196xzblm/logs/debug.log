@@ -1,0 +1,21 @@
+2026-04-24 07:05:55,955 INFO    MainThread:6213 [wandb_setup.py:_flush():81] Current SDK version is 0.24.0
+2026-04-24 07:05:55,955 INFO    MainThread:6213 [wandb_setup.py:_flush():81] Configure stats pid to 6213
+2026-04-24 07:05:55,956 INFO    MainThread:6213 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-04-24 07:05:55,956 INFO    MainThread:6213 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /workspace/genre_classification/check_data/wandb/run-20260424_070555-196xzblm/logs/debug.log
+2026-04-24 07:05:55,956 INFO    MainThread:6213 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /workspace/genre_classification/check_data/wandb/run-20260424_070555-196xzblm/logs/debug-internal.log
+2026-04-24 07:05:55,956 INFO    MainThread:6213 [wandb_init.py:init():844] calling init triggers
+2026-04-24 07:05:55,956 INFO    MainThread:6213 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-04-24 07:05:55,956 INFO    MainThread:6213 [wandb_init.py:init():892] starting backend
+2026-04-24 07:05:57,670 INFO    MainThread:6213 [wandb_init.py:init():895] sending inform_init request
+2026-04-24 07:05:57,686 INFO    MainThread:6213 [wandb_init.py:init():903] backend started and connected
+2026-04-24 07:05:57,755 INFO    MainThread:6213 [wandb_init.py:init():973] updated telemetry
+2026-04-24 07:05:57,774 INFO    MainThread:6213 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-04-24 07:05:58,446 INFO    MainThread:6213 [wandb_init.py:init():1044] starting run threads in backend
+2026-04-24 07:05:58,473 INFO    MainThread:6213 [wandb_run.py:_console_start():2529] atexit reg
+2026-04-24 07:05:58,473 INFO    MainThread:6213 [wandb_run.py:_redirect():2377] redirect: wrap_raw
+2026-04-24 07:05:58,473 INFO    MainThread:6213 [wandb_run.py:_redirect():2446] Wrapping output streams.
+2026-04-24 07:05:58,473 INFO    MainThread:6213 [wandb_run.py:_redirect():2469] Redirects installed.
+2026-04-24 07:05:58,479 INFO    MainThread:6213 [wandb_init.py:init():1084] run started, returning control to user process
+2026-04-24 07:06:05,811 INFO    wandb-AsyncioManager-main:6213 [service_client.py:_forward_responses():80] Reached EOF.
+2026-04-24 07:06:05,812 INFO    wandb-AsyncioManager-main:6213 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

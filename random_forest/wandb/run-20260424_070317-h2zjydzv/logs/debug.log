@@ -1,0 +1,22 @@
+2026-04-24 07:03:17,309 INFO    MainThread:5201 [wandb_setup.py:_flush():81] Current SDK version is 0.24.0
+2026-04-24 07:03:17,309 INFO    MainThread:5201 [wandb_setup.py:_flush():81] Configure stats pid to 5201
+2026-04-24 07:03:17,309 INFO    MainThread:5201 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-04-24 07:03:17,309 INFO    MainThread:5201 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /workspace/genre_classification/random_forest/wandb/run-20260424_070317-h2zjydzv/logs/debug.log
+2026-04-24 07:03:17,309 INFO    MainThread:5201 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /workspace/genre_classification/random_forest/wandb/run-20260424_070317-h2zjydzv/logs/debug-internal.log
+2026-04-24 07:03:17,309 INFO    MainThread:5201 [wandb_init.py:init():844] calling init triggers
+2026-04-24 07:03:17,309 INFO    MainThread:5201 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-04-24 07:03:17,309 INFO    MainThread:5201 [wandb_init.py:init():892] starting backend
+2026-04-24 07:03:17,615 INFO    MainThread:5201 [wandb_init.py:init():895] sending inform_init request
+2026-04-24 07:03:17,617 INFO    MainThread:5201 [wandb_init.py:init():903] backend started and connected
+2026-04-24 07:03:17,619 INFO    MainThread:5201 [wandb_init.py:init():973] updated telemetry
+2026-04-24 07:03:17,635 INFO    MainThread:5201 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-04-24 07:03:18,070 INFO    MainThread:5201 [wandb_init.py:init():1044] starting run threads in backend
+2026-04-24 07:03:18,158 INFO    MainThread:5201 [wandb_run.py:_console_start():2529] atexit reg
+2026-04-24 07:03:18,158 INFO    MainThread:5201 [wandb_run.py:_redirect():2377] redirect: wrap_raw
+2026-04-24 07:03:18,158 INFO    MainThread:5201 [wandb_run.py:_redirect():2446] Wrapping output streams.
+2026-04-24 07:03:18,159 INFO    MainThread:5201 [wandb_run.py:_redirect():2469] Redirects installed.
+2026-04-24 07:03:18,163 INFO    MainThread:5201 [wandb_init.py:init():1084] run started, returning control to user process
+2026-04-24 07:03:19,399 INFO    MainThread:5201 [wandb_run.py:_config_callback():1404] config_cb None None {'random_forest': {'n_estimators': 100, 'criterion': 'gini', 'max_depth': 13, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.0, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'bootstrap': True, 'oob_score': False, 'n_jobs': None, 'random_state': 42, 'verbose': 0, 'warm_start': False, 'class_weight': 'balanced', 'ccp_alpha': 0.0, 'max_samples': None}, 'tfidf': {'max_features': 10}, 'features': {'numerical': ['danceability', 'energy', 'loudness', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms'], 'categorical': ['time_signature', 'key'], 'nlp': ['text_feature']}, 'export_artifact': 'model_export'}
+2026-04-24 07:03:44,953 INFO    wandb-AsyncioManager-main:5201 [service_client.py:_forward_responses():80] Reached EOF.
+2026-04-24 07:03:44,953 INFO    wandb-AsyncioManager-main:5201 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

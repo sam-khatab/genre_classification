@@ -1,0 +1,42 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            190injxkypk7pk9ivl4n1dswkn76bc5g:
+                args:
+                    - -s
+                    - -vv
+                    - .
+                    - --reference_artifact
+                    - exercise_14/preprocessed_data.csv:latest
+                    - --sample_artifact
+                    - preprocessed_data.csv:latest
+                    - --ks_alpha
+                    - "0.05"
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "2160158191616"
+                        used: "471819145216"
+                email: sskhattab@gmail.com
+                executable: /home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/bin/python3.13
+                git:
+                    commit: 96b4c8f421fac8779636cb60ecd64d637057514b
+                    remote: https://github.com/sam-khatab/genre_classification
+                host: 3d552555e05aaeeb613fb400a93a58b58bf142d0-6889fdddc7-l472r
+                memory:
+                    total: "135077654528"
+                os: Linux-6.6.97+-x86_64-with-glibc2.36
+                program: /home/student/.conda/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/bin/pytest
+                python: CPython 3.13.13
+                root: /workspace/genre_classification/check_data
+                startedAt: "2026-04-24T07:05:55.954249Z"
+                writerId: 190injxkypk7pk9ivl4n1dswkn76bc5g
+        m: []
+        python_version: 3.13.13
+        t:
+            "4": 3.13.13
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64

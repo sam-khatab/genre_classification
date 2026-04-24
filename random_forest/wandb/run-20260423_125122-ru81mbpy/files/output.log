@@ -1,0 +1,51 @@
+2026-04-23 12:51:24,434 Downloading and reading train artifact
+[34m[1mwandb[0m: [32m[41mERROR[0m artifact membership 'data_train.csv:latest' not found in 'sskhattab-cariad-se/exercise_14'
+Traceback (most recent call last):
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/apis/normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/apis/public/api.py", line 1494, in _artifact
+    artifact = Artifact._from_name(
+        path=path,
+        client=self.client,
+        enable_tracking=enable_tracking,
+    )
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/sdk/artifacts/artifact.py", line 326, in _from_name
+    return cls._membership_from_name(path=path, client=client)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/sdk/artifacts/artifact.py", line 311, in _membership_from_name
+    raise ValueError(msg)
+ValueError: artifact membership 'data_train.csv:latest' not found in 'sskhattab-cariad-se/exercise_14'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/genre_classification/random_forest/run.py", line 274, in <module>
+    go(args)
+    ~~^^^^^^
+  File "/workspace/genre_classification/random_forest/run.py", line 33, in go
+    train_data_path = run.use_artifact(args.train_data).file()
+                      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 458, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/sdk/wandb_run.py", line 3094, in use_artifact
+    artifact = public_api._artifact(type=type, name=name)
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/apis/normalize.py", line 82, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/apis/normalize.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/apis/public/api.py", line 1494, in _artifact
+    artifact = Artifact._from_name(
+        path=path,
+        client=self.client,
+        enable_tracking=enable_tracking,
+    )
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/sdk/artifacts/artifact.py", line 326, in _from_name
+    return cls._membership_from_name(path=path, client=client)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/student/.conda/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/lib/python3.13/site-packages/wandb/sdk/artifacts/artifact.py", line 311, in _membership_from_name
+    raise ValueError(msg)
+wandb.errors.errors.CommError: artifact membership 'data_train.csv:latest' not found in 'sskhattab-cariad-se/exercise_14'
